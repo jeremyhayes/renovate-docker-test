@@ -2,6 +2,9 @@
   "extends": [
     "config:base"
   ],
+  "dockerfile": {
+    "pinDigests": true
+  },
   "packageRules": [
     {
       "datasources": [
