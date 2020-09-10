@@ -2,12 +2,19 @@
   "extends": [
     "config:base"
   ],
-  "dockerfile": {
-    "updateTypes": [
-      "major",
-      "minor",
-      "patch",
-      "digest"
-    ]
-  }
+  "packageRules": [
+    {
+      "datasources": [
+        "docker"
+      ],
+      "updateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
+      "enabled": true
+    }
+  ]
 }
