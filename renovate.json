@@ -2,10 +2,12 @@
   "extends": [
     "config:base"
   ],
-  "updateTypes": [
-    "major",
-    "minor",
-    "patch",
-    "digest"
-  ]
+  "dockerfile": {
+    "updateTypes": [
+      "major",
+      "minor",
+      "patch",
+      "digest"
+    ]
+  }
 }
