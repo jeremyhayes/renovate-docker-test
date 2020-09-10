@@ -1,6 +1,11 @@
 {
   "extends": [
-    "config:base",
-    "docker:enableMajor"
+    "config:base"
+  ],
+  updateTypes: [
+    'major',
+    'minor',
+    'patch',
+    'digest'
   ]
 }
