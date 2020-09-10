@@ -2,10 +2,10 @@
   "extends": [
     "config:base"
   ],
-  updateTypes: [
-    'major',
-    'minor',
-    'patch',
-    'digest'
+  "updateTypes": [
+    "major",
+    "minor",
+    "patch",
+    "digest"
   ]
 }
