@@ -5,7 +5,6 @@
   "dependencyDashboard": true,
   "packageRules": [
     {
-        // docker digest updates only weekly to reduce churn
         matchDatasources: ['docker'],
         matchUpdateTypes: [
           'digest'
