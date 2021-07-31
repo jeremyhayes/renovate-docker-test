@@ -3,22 +3,16 @@
     "config:base"
   ],
   "dependencyDashboard": true,
-  "dockerfile": {
-    "pinDigests": true
-  },
   "packageRules": [
     {
-      "datasources": [
-        "docker"
-      ],
-      "updateTypes": [
-        "major",
-        "minor",
-        "patch",
-        "pin",
-        "digest"
-      ],
-      "enabled": true
+        // docker digest updates only weekly to reduce churn
+        matchDatasources: ['docker'],
+        matchUpdateTypes: [
+          'digest'
+        ],
+        extends: [
+          'schedule:weekly'
+        ]
     }
   ]
 }
