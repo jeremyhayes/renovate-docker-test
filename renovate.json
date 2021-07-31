@@ -5,13 +5,15 @@
   "dependencyDashboard": true,
   "packageRules": [
     {
-        matchDatasources: ['docker'],
-        matchUpdateTypes: [
-          'digest'
-        ],
-        extends: [
-          'schedule:weekly'
-        ]
+      "matchDatasources": [
+        "docker"
+      ],
+      "matchUpdateTypes": [
+        "digest"
+      ],
+      "extends": [
+        "schedule:weekly"
+      ]
     }
   ]
 }
