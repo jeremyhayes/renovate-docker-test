@@ -1,1 +1,1 @@
-FROM adoptopenjdk/openjdk11:x86_64-alpine-jre-11.0.11_9@sha256:2e6103c208187733ff34d882620720e4875baa13721bb0b6d25eb46715408706
+FROM adoptopenjdk/openjdk11:x86_64-alpine-jre-11.0.11_9@sha256:edd78d9a65f21cf0fbf9935eaa22b40be85164872a799024d5bf4525f565a7a0
